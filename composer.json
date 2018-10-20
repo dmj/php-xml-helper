@@ -1,0 +1,11 @@
+{
+    "name": "hab/xml-helper",
+    "description": "Utility functions for processing XML files in PHP",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "HAB\\XML\\": "lib/"
+        },
+        "files": ["lib/functions.php"]
+    }
+}
