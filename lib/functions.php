@@ -23,6 +23,11 @@
 
 namespace HAB\XML;
 
+use RuntimeException;
+use ArrayObject;
+use DOMElement;
+
+
 /**
  * Return PHP representation of XML encoded JSON document.
  *
