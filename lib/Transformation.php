@@ -61,6 +61,11 @@ class Transformation
         $this->parameters = $parameters;
     }
 
+    public function setParameter ($name, $value)
+    {
+        $this->parameters[$name] = $value;
+    }
+
     private function getProcessor ()
     {
         if (!$this->processor) {
